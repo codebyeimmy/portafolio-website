@@ -309,5 +309,43 @@ section {
    margin: auto 0 ; /* margen de la seccion */
 }
 
+/* EXPERIENCE SECTION */
+#experience {
+   position: relative;
+}
+
+.experience-sub-title {
+   color: rgb(85, 85, 85) ; /* color del texto */
+   font-weight: 600 ; /* peso de la fuente */
+   font-size: 1.75rem ; /* tamaño de la fuente */
+   margin-bottom: 2rem ; /* espacio entre el texto y la imagen */
+}
+
+.experience-details-contaider {
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+   justify-content: center ; /* alinea los elementos al centro */
+   flex-direction: column ; /* distribuye los elementos en una columna */
+}
+
+.article-container {
+   display: flex ;
+   text-align: initial ; /* alinea el texto al inicio */
+   flex-wrap: wrap ; /* hace que los elementos se distribuyan en varias filas */
+   flex-direction: row ; /* distribuye los elementos en una fila */
+   gap: 2.5rem ; /* espacio entre los elementos */
+   justify-content: space-around ; /* distribuye los elementos uniformemente */
+}
+
+article {
+   display: flex ;
+   width: 10rem ; /* ancho del articulo */
+   justify-content: space-around ; /* distribuye los elementos uniformemente */
+   gap: 0.5rem ; /* espacio entre los elementos */
+}
+
+article .icon {
+   cursor: default ; /* cambia el cursor al pasar el mouse por encima del icono */
+}
+
 
 
