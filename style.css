@@ -1,0 +1,73 @@
+/* General */
+
+/* impor de fuente */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* * quiere decir toda la pagina */
+* {
+    margin: 0 ;
+    padding: 0 ;
+}
+
+/* aqui ya es para cada etiqueta del documento */
+body {
+    font-family: Poppins, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color : rgb(85, 85, 85);
+}
+
+/* TRANSITIONS */
+
+a, .btn {
+    transition: all 300ms ease ; /* hace que los elementos se muevan suavemente */
+}
+
+/* DESKTOP-NAV */
+ nav , .nav-links{
+    display: flex ; /* hace que los elementos se distribuyan en una fila */
+ }
+
+ nav {
+    justify-content: space-around; /* hace que los elementos se distribuyan uniformemente */
+    height: 17vh ; /* altura de la barra de navegacion */
+    align-items: center ; /* alinea los elementos verticalmente */
+ }
+
+ .nav-links {
+    gap: 2rem ; /* espacio entre los elementos del nav*/
+    list-style: none ; /* quita los puntos de la lista */
+    font-size: 1.5rem ; /* tamaño de la fuente */
+ }
+
+ a {
+    color: black ; /* color de los enlaces */
+    text-decoration: none ; /* quita el subrayado de los enlaces */
+    text-decoration-color: white ; /* color del subrayado de los enlaces */
+ }
+
+ /* efectos para cuando el mouse pasa por encima de los enlaces */
+ a:hover {
+    color: grey ; /* cambia el color de los enlaces al pasar el mouse */
+    text-decoration: underline ; /* subraya los enlaces al pasar el mouse */
+    text-underline-offset: 1rem ; /* distancia del subrayado de los enlaces */
+    text-decoration-color: rgb(181, 181, 181) ; /* color del subrayado de los enlaces */
+ }
+
+ .logo {
+    font-size: 2rem ; /* tamaño de la fuente del logo */
+ }
+
+ .logo:hover {
+    cursor: default ; /* para que el cursor no cambie al pasar el mouse por encima del logo */
+ }
+
+
+
+
+
