@@ -1,0 +1,10 @@
+/* cuando el ancho de la pantalla es menor a 1200px 
+oculta el desktop-nav y muestra el hamburguer-nav*/
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none; /* oculta el nav de escritorio */
+    }
+    #mobile-nav {
+        display: flex; /* muestra el nav hamburguesa */
+    }
+}

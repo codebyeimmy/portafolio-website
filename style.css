@@ -59,7 +59,8 @@ a, .btn {
     text-decoration-color: rgb(181, 181, 181) ; /* color del subrayado de los enlaces */
  }
 
- .logo {
+ 
+ .logo { 
     font-size: 2rem ; /* tamaño de la fuente del logo */
  }
 
@@ -67,7 +68,83 @@ a, .btn {
     cursor: default ; /* para que el cursor no cambie al pasar el mouse por encima del logo */
  }
 
+ /* HAMBURGER MENU */
+ #mobile-nav {
+    display: none ; /* oculta el menu hamburguesa */
+ }
 
+.hamburger-menu{
+   position: relative ; /* posiciona el menu hamburguesa */
+   display: inline-block ; /* hace que el menu hamburguesa se muestre en una fila */
+}
 
+.hamburger-icon{
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+   flex-direction: column ; /* distribuye los elementos en una columna */
+   justify-content: space-between ; /* distribuye los elementos uniformemente */
+   height: 24px ; /* altura del menu hamburguesa */
+   width: 30px ; /* ancho del menu hamburguesa */
+   cursor: pointer ; /* cambia el cursor al pasar el mouse por encima del menu hamburguesa */
+}
 
+.hamburger-icon span {
+   width: 100% ; /* ancho de las lineas del menu hamburguesa */
+   height: 2px ; /* altura de las lineas del menu hamburguesa */
+   background-color: black ; /* color de las lineas del menu hamburguesa */
+   transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+   position: absolute ; /* posiciona el menu hamburguesa */
+   top: 100% ; /* posiciona el menu hamburguesa */
+   right: 0 ; /* posiciona el menu hamburguesa */
+   background-color: white ; /* color de fondo del menu hamburguesa */
+   width: fit-content ; /* ancho del menu hamburguesa */
+   max-height: 0 ; /* altura del menu hamburguesa */
+   overflow: hidden ; /* oculta el contenido del menu hamburguesa */
+   transition: all 0.3s ease-in-out ; /* hace que el menu hamburguesa se muestre suavemente */
+}
+
+.menu-links a {
+   display: block ; /* hace que los enlaces del menu hamburguesa se muestren en una fila */
+   padding: 10px; /* espacio entre los enlaces del menu hamburguesa */
+   text-align: center ; /* alinea los enlaces del menu hamburguesa al centro */
+   font-size: 1.5rem ; /* tamaño de la fuente del menu hamburguesa */
+   color: black ; /* color de los enlaces del menu hamburguesa */
+   text-decoration: none ; /* quita el subrayado de los enlaces del menu hamburguesa */
+   transition: all 0.3s ease-in-out ; /* hace que el menu hamburguesa se muestre suavemente */
+}
+
+.menu-links li {
+   list-style: none ; /* quita los puntos de la lista del menu hamburguesa */
+
+}
+
+.menu-links.open {
+   max-height: 300px ; /* altura del menu hamburguesa */
+}
+
+.hamburger-icon.open span:first-child {
+   transform: rotate(45deg) translate(10px, 5px) ; /* rota la primera linea del menu hamburguesa */
+}
+
+.hamburger-icon.open span:nth-child(2) {
+   opacity: 0 ; /* oculta la segunda linea del menu hamburguesa */
+}
+
+.hamburger-icon.open span:last-child {
+   transform: rotate(-45deg) translate(10px, -5px) ; 
+}
+
+.hamburger-icon span:first-child {
+   transform: none ; /* no rota la primera linea del menu hamburguesa */
+}
+
+.hamburger-icon span:first-child {
+   opacity: 1 ; /* muestra la segunda linea del menu hamburguesa */
+}
+
+.hamburger-icon span:first-child {
+   transform: none ; /* no rota la primera linea del menu hamburguesa */
+}
 
