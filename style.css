@@ -373,4 +373,43 @@ article .icon {
    border-color: rgb(163, 163, 163) ; /* color del borde del contenedor */
 }
 
+/* CONTACT SECTION */
+#contact {
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+   justify-content: center ; /* alinea los elementos al centro */
+   flex-direction: column ; /* distribuye los elementos en una columna */
+   height: 70vh ; /* altura de la seccion */
+   position: relative ; /* posiciona la seccion */
+}
 
+.contact-info-upper-container {
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+   justify-content: center ; /* alinea los elementos al centro */
+   border-radius: 2rem ; /* bordes redondeados del contenedor */
+   border: rgb(53, 53, 53) 0.1rem solid ; /* borde del contenedor */
+   border-color: rgb(163, 163, 163) ; /* color del borde del contenedor */
+   background: rgb(255, 255, 255);   /* color de fondo del contenedor */
+   margin: 2rem auto; /* espacio entre la parte superior de la seccion y el contenido */
+   padding: 0.5rem ; /* espacio entre el texto y la imagen */
+}
+
+.contact-info-container {
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+   justify-content: center ; /* alinea los elementos al centro */
+   align-items: center ; /* alinea los elementos verticalmente */
+   gap: 0.5rem ; /* espacio entre los elementos */
+   margin: 1rem ; /* espacio entre la parte superior de la seccion y el contenido */
+}
+
+.contact-info-container p {
+   font-size: larger ; /* tamaño de la fuente */
+   color: black ; /* color del texto */
+}
+
+.contact-icon {
+   cursor: default ; /* cambia el cursor al pasar el mouse por encima del icono */
+}
+
+.email-icon {
+   height: 2.5rem ; /* altura del icono */
+}
