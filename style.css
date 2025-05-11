@@ -413,3 +413,13 @@ article .icon {
 .email-icon {
    height: 2.5rem ; /* altura del icono */
 }
+
+/* FOOTER */
+footer {
+   height: 26vh ; /* altura del footer */
+   margin: 0 1rem ; /* margen del footer */
+}
+
+footer p {
+   text-align: center ; 
+}
