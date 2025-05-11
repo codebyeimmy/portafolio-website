@@ -148,3 +148,114 @@ a, .btn {
    transform: none ; /* no rota la primera linea del menu hamburguesa */
 }
 
+/* SECTIONS */
+
+section {
+   padding-top: 4vh ; /* espacio entre la parte superior de la seccion y el contenido */
+   height: 96vh ; /* altura de la seccion */
+   margin: 0 10rem; /* margen de la seccion */
+   box-sizing: border-box ; /* incluye el padding y el margen en el tamaño de la seccion */
+   min-height: fit-content ; /* altura minima de la seccion */
+}
+
+.section-container {
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+}
+
+/* PROFILE SECTION */ 
+
+#profile {
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+   justify-content: center ; /* alinea los elementos al centro */
+   gap: 5rem ; /* espacio entre los elementos */
+   height: 80vh ; /* altura de la seccion */
+}
+
+.section__pic-container {
+   display: flex; /* hace que los elementos se distribuyan en una fila */
+   height: 400px ; /* altura de la seccion */
+   width: 400px ; /* ancho de la seccion */
+   margin: auto 0 ; /* margen de la seccion */
+}
+
+.section__text {
+   align-self:  center ; /* alinea los elementos al centro */
+   text-align: center ; /* alinea el texto al centro */
+}
+
+.section__text p {
+   font-weight: 600;
+}
+
+.section__text__p1 {
+   text-align: center ; /* alinea el texto al centro */
+}
+
+.section__text__p2 {
+   font-size: 1.75rem ; /* tamaño de la fuente */
+   margin-bottom: 1rem ; /* espacio entre el texto y la imagen */
+}
+
+.title {
+   font-size: 3rem ; /* tamaño de la fuente */
+   text-align: center ; /* alinea el texto al centro */
+}
+
+#socials-container {
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+   justify-content: center ; /* alinea los elementos al centro */
+   margin-top: 1rem ; /* espacio entre el texto y la imagen */
+   gap: 1rem ; /* espacio entre los elementos */
+}
+
+/* ICONS */
+.icon {
+   cursor: pointer ; /* cambia el cursor al pasar el mouse por encima del icono */
+   height: 2rem ; /* altura del icono */
+}
+
+/* BUTTONS */
+.btn-container {
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+   justify-content: center ; /* alinea los elementos al centro */
+   gap: 1rem ; /* espacio entre los elementos */
+}
+
+.btn {
+   font-weight: 600 ; /* peso de la fuente */
+   transition: all 300ms ease ; /* hace que los elementos se muevan suavemente */
+   padding: 1rem ; /* espacio entre el texto y el boton */
+   width: 8rem ; /* ancho del boton */
+   border-radius: 2rem ; /* bordes redondeados del boton */
+}
+
+.btn-color-1 , .btn-color-2 {
+   border: rgb(53, 53, 53) 0.1rem solid ; /* borde del boton */
+}
+
+.btn-color-1:hover , .btn-color-2:hover {
+   cursor: pointer ; /* cambia el cursor al pasar el mouse por encima del boton */
+}
+
+.btn-color-1 , .btn-color-2:hover {
+   background: rgb(53, 53, 53) ; /* color de fondo del boton */
+   color: white ; /* color del texto del boton */
+}
+
+.btn-color-1:hover {
+   background: rgb(0, 0, 0) ; /* color de fondo del boton */
+}
+
+.btn-color-2 {
+   background: none ;;
+}
+
+.btn-color-2:hover {
+   border: rgb(255, 255, 255) 0.1rem solid ; /* borde del boton */
+}
+
+.btn-container {
+   gap: 1rem ; /* espacio entre los elementos */
+}
+
+
