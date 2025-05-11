@@ -258,4 +258,56 @@ section {
    gap: 1rem ; /* espacio entre los elementos */
 }
 
+/* ABAUT SECTION */
+#about {
+   position: relative ; /* posiciona la seccion */
+}
+
+.about-containers {
+   gap: 2rem ; /* espacio entre los elementos */
+   margin-bottom: 2rem ; /* espacio entre la parte inferior de la seccion y el contenido */
+   margin-top: 2rem ; /* espacio entre la parte superior de la seccion y el contenido */
+}
+
+.about-details-container {
+   justify-content: center ; /* alinea los elementos al centro */
+   flex-direction: column ; /* distribuye los elementos en una columna */
+} 
+
+.about-containers , .about-details-container {
+   display: flex ; /* hace que los elementos se distribuyan en una fila */
+}
+
+.about-pic {
+   border-radius: 2rem ; /* bordes redondeados de la imagen */
+}
+
+.arrow {
+   position: absolute ; /* posiciona la flecha */
+   right: -5rem ; /* posiciona la flecha */
+   bottom: 2.5rem ; /* posiciona la flecha */
+}
+
+.details-containers {
+   padding: 1.5rem ; /* espacio entre el texto y la imagen */
+   flex: 1 ; /* hace que el contenedor ocupe todo el espacio disponible */
+   background: white ; /* color de fondo del contenedor */
+   border-radius: 2rem ; /* bordes redondeados del contenedor */
+   border: rgb(53, 53, 53) 0.1rem solid ; /* borde del contenedor */
+   border-color: rgb(163, 163, 163) ; /* color del borde del contenedor */
+   text-align: center ; /* alinea el texto al centro */
+}
+
+.section-container {
+   gap: 4rem ; /* espacio entre los elementos */
+   height: 80% ; /* altura de la seccion */
+}
+
+.section__pic-container {
+   height: 400px ; /* altura de la seccion */
+   width: 400px ; /* ancho de la seccion */
+   margin: auto 0 ; /* margen de la seccion */
+}
+
+
 
