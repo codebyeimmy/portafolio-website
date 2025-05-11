@@ -347,5 +347,30 @@ article .icon {
    cursor: default ; /* cambia el cursor al pasar el mouse por encima del icono */
 }
 
+/* PROJECTS SECTION */
+#projects {
+   position: relative ; /* posiciona la seccion */
+}
+
+.color-container {
+   border-color: rgb(163, 163, 163) ; /* color del borde del contenedor */
+   background: rgb(250, 250, 250) ; /* color de fondo del contenedor */
+}
+
+.project-img {
+   border-radius: 2rem ; /* bordes redondeados de la imagen */
+   width: 90% ; /* ancho de la imagen */
+   height: 90% ; /* altura de la imagen */
+}
+
+.project-title {
+   margin: 1rem ;
+   color: black;
+}
+
+.project-btn {
+   color: black ; /* color del texto */
+   border-color: rgb(163, 163, 163) ; /* color del borde del contenedor */
+}
 
 
