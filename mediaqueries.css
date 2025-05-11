@@ -1,3 +1,14 @@
+
+@media screen and (max-width: 1200px) {
+    #profile {
+        height: 83vh; /* altura del perfil */
+        margin-bottom: 6rem; /* margen inferior */
+    } 
+    .about-containers {
+        flex-wrap: wrap; /* permite que los elementos se envuelvan */
+    }
+}
+
 /* cuando el ancho de la pantalla es menor a 1200px 
 oculta el desktop-nav y muestra el hamburguer-nav*/
 @media screen and (max-width: 1200px) {
@@ -7,4 +18,80 @@ oculta el desktop-nav y muestra el hamburguer-nav*/
     #mobile-nav {
         display: flex; /* muestra el nav hamburguesa */
     }
+    #experience , .experience-details-container{
+        margin-top: 2rem; /* margen superior */
+    }
+    #profile , .section-container{
+        display: block; /* muestra el perfil */
+    }
+    .arrow {
+        display: none; /* oculta la flecha */
+    }
+    section , .section-container {
+        height: fit-content; /* altura automática */    
+    }
+    section {
+        margin: 0 5%; /* margen horizontal */
+    }
+    .section__pic-container {
+        width: 275px; /* ancho de la imagen */
+        height: 275px; /* altura de la imagen */    
+        margin: 0 auto; /* centra la imagen */
+    }
+    .about-containers {
+        margin-top: 0; /* margen superior */
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    #contact , footer {
+        height: 40vh; /* altura del footer */
+    }
+    #profile {
+        height: 83 vh; /* altura del perfil */
+        margin-bottom: 0; /* margen inferior */ 
+    }
+    article {
+        font-size: 1rem; /* tamaño de fuente */
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem; /* margen inferior */
+    }
+    .about-containers , .contact-info-upper-container , .btn-container{
+        flex-wrap: wrap; /* permite que los elementos se envuelvan */
+    }
+    .contact-info-container {
+        margin: 0; /* margen */
+    }
+    .contact-info-container p , .nav-link li a {
+        font-size: 1rem; /* tamaño de fuente */
+    }
+    .experience-sub-title {
+        font-size: 1.2rem; /* tamaño de fuente */
+    }
+    .logo {
+        font-size: 1.5rem; /* tamaño de fuente */
+    }
+    .nav-links {
+        flex-direction: column; /* dirección de los enlaces */
+        gap: 0.5rem ;
+        text-align: center; /* alineación del texto */
+    }
+    .section__pic-container {
+        width: auto; /* ancho automático */
+        height: 46vw ; /* altura proporcional al ancho */
+        justify-content: center; /* centra la imagen */
+        margin-bottom: 1rem;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem; /* tamaño de fuente */
+    }
+    .title {
+        font-size: 2rem; /* tamaño de fuente */
+    }
+    .text-container {
+        text-align: justify; /* alineación del texto */
+    }
+
 }
